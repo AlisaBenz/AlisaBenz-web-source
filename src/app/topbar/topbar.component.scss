@@ -1,0 +1,32 @@
+.topnav {
+  background-color:#21610B;
+  overflow: hidden;
+}
+
+.topnav a {
+  // float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 20px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: "sans-serif";
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+  border-radius: 500px;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.lo {
+  float: right;
+}
+.ro {
+  float: left;
+}

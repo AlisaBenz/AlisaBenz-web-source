@@ -1,0 +1,14 @@
+<br><br>
+  
+   <div id="container">       
+    <form>
+    <label for="username">Username:</label>
+    <input type="text" #user name="user" value="">
+    <label for="password">Password:</label>
+    <input type="password" #password name="password" value="xxxxxxx">
+    <div id="lower">
+    <input type="checkbox"><label for="checkbox">Keep me logged in</label>
+    <input (click)="login(user.value, password.value)" type="submit" value="Login">
+    </div>
+    </form>
+    </div>
